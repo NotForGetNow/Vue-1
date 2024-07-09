@@ -20,7 +20,7 @@ defineProps({
         <span class="uppercase text-gray-400">цена:</span>
         <span class="font-bold">{{ price }} тенге</span>
       </div>
-      <img @click="onClickAdd" :src="isAdded ? '/checked.svg' : '/plus.svg'" alt="" />
+      <img @click="onClickAdd" :src="isAdded ? 'checked.svg' : 'plus.svg'" alt="" />
     </div>
   </div>
 </template>
