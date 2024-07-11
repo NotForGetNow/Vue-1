@@ -1,6 +1,7 @@
 <template>
   <div class="flex items-center gap-3">
     <svg
+      @click="closeDrawer"
       class="rotate-180 transition hover:rotate-0"
       width="13"
       height="13"
@@ -37,3 +38,8 @@
         </div>
     </div>
 </template>
+
+<script setup>
+import { inject } from 'vue'
+const closeDrawer = inject('closeDrawer')
+</script>

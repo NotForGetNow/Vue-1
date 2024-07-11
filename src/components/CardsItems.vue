@@ -4,6 +4,10 @@ import Card from './CardItem.vue'
 defineProps({
   items: Array
 })
+
+const onClickAdd = () => {
+  alert('Добавлено')
+}
 </script>
 
 <template>
